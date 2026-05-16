@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: NewNovelScenarioData
+  m_EditorClassIdentifier: Assembly-CSharp::NovelScenarioData
+  pages:
+  - pageName: P1
+    useFadeOnEnter: 1
+    backgroundSprite: {fileID: 660168363550342102, guid: fbc177184f4bf744ab5caf628b7e4b99, type: 3}
+    bgmClip: {fileID: 0}
+    stopBgmIfClipIsEmpty: 1
+    startStandings:
+    - position: 1
+      characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+      visible: 1
+    blocks:
+    - speakerName: 
+      bodyText: " \u3042\u308B\u6642\u96E8\u306E\u964D\u308B\u6669\u306E\u4E8B\u3067\u3059\u3002\n
+        \u79C1\u3092\u4E57\u305B\u305F\u4EBA\u529B\u8ECA\u306F\u3001\u4F55\u5EA6\u3082\u5927\u68EE\u754C\u9688\u306E\u967A\u3057\u3044\u5742\u3092\u4E0A\u3063\u305F\u308A\u4E0B\u3063\u305F\u308A\u3057\u3066\u3001\u3084\u3063\u3068\u7AF9\u85EA\u306B\u56F2\u307E\u308C\u305F\u3001\u5C0F\u3055\u306A\u897F\u6D0B\u9928\u306E\u524D\u306B\u68B6\u68D2\u3092\u4E0B\u3057\u307E\u3057\u305F"
+      standingChanges:
+      - position: 1
+        characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+        visible: 1
+      hidePositions: 
+      hideAllStandings: 0
+    - speakerName: 
+      bodyText: " \u3082\u3046\u9F20\u8272\u306E\u30DA\u30F3\u30AD\u306E\u5265\u3052\u304B\u304B\u3063\u305F\u3001\u72ED\u82E6\u3057\u3044\u7384\u95A2\u306B\u306F\u3001\u8ECA\u592B\u306E\u51FA\u3057\u305F\u63D0\u706F\u306E\u660E\u304B\u308A\u3067\u898B\u308B\u3068\u3001\u5370\u5EA6\u4EBA\u30DE\u30C6\u30A3\u30E9\u30E0\u30FB\u30DF\u30B9\u30E9\u3068\u65E5\u672C\u5B57\u3067\u66F8\u3044\u305F\n\u3053\u308C\u3060\u3051\u306F\u65B0\u3057\u3044\u3001\u702C\u6238\u7269\u306E\u8868\u672D\u304C\u304B\u304B\u3063\u3066\u3044\u307E\u3059\u3002"
+      standingChanges:
+      - position: 1
+        characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+        visible: 1
+      hidePositions: 
+      hideAllStandings: 0
+  - pageName: P2
+    useFadeOnEnter: 0
+    backgroundSprite: {fileID: 660168363550342102, guid: fbc177184f4bf744ab5caf628b7e4b99, type: 3}
+    bgmClip: {fileID: 0}
+    stopBgmIfClipIsEmpty: 1
+    startStandings:
+    - position: 1
+      characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+      visible: 0
+    blocks:
+    - speakerName: 
+      bodyText: "\u30DE\u30C6\u30A3\u30E9\u30E0\u30FB\u30DF\u30B9\u30E9\u541B\u3068\u4E91\u3048\u3070\u3001\u3082\u3046\u7686\u3055\u3093\u306E\u4E2D\u306B\u3082\u3001\u5FA1\u5B58\u3058\u306E\u65B9\u304C\u5C11\u306A\u304F\u306A\u3044\u304B\u3082\u77E5\u308C\u307E\u305B\u3093\u3002"
+      standingChanges:
+      - position: 1
+        characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+        visible: 1
+      hidePositions: 
+      hideAllStandings: 1
+    - speakerName: 
+      bodyText: " \u30DF\u30B9\u30E9\u541B\u306F\u6C38\u5E74\u5370\u5EA6\u306E\u72EC\u7ACB\u3092\u8A08\u3063\u3066\u3044\u308B\u30AB\u30EB\u30AB\u30C3\u30BF\u751F\u308C\u306E\u611B\u56FD\u8005\u3067\u3001\n
+        \u540C\u6642\u306B\u30CF\u30C3\u30B5\u30F3\u30FB\u30AB\u30F3\u3068\u3044\u3046\u540D\u9AD8\u3044\u5A46\u7F85\u9580\u306E\u79D8\u6CD5\u3092\u5B66\u3093\u3060\u3001\u6B73\u306E\u82E5\u3044\u9B54\u8853\u306E\u5927\u5BB6\u306A\u306E\u3067\u3059\u3002"
+      standingChanges:
+      - position: 1
+        characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+        visible: 1
+      hidePositions: 
+      hideAllStandings: 1
+  - pageName: P3
+    useFadeOnEnter: 1
+    backgroundSprite: {fileID: 878130953088834983, guid: ca8f528223780374798b02082b406212, type: 3}
+    bgmClip: {fileID: 0}
+    stopBgmIfClipIsEmpty: 1
+    startStandings:
+    - position: 2
+      characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+      visible: 0
+    - position: 0
+      characterSprite: {fileID: -1898900564960642027, guid: e7d739121c447584b991610553ffe542, type: 3}
+      visible: 0
+    blocks:
+    - speakerName: 
+      bodyText: " \u79C1\u306F\u3061\u3087\u3046\u3069\u4E00\u6708\u3070\u304B\u308A\u4EE5\u524D\u304B\u3089\u3001\u3042\u308B\u53CB\u4EBA\u306E\u7D39\u4ECB\u3067\u30DF\u30B9\u30E9\u541B\u3068\u4EA4\u969B\u3057\u3066\u3044\u307E\u3057\u305F\u304C\u3001\u653F\u6CBB\u7D4C\u6E08\u306E\u554F\u984C\u306A\u3069\u306F\u3044\u308D\u3044\u308D\u8B70\u8AD6\u3057\u305F\u3053\u3068\u304C\u3042\u3063\u3066\u3082\u3001\u809D\u814E\u306E\u9B54\u8853\u3092\u4F7F\u3046\u6642\u306B\u306F\u3001\u307E\u3060\u4E00\u5EA6\u3082\u5C45\u5408\u308F\u305B\u305F\u3053\u3068\u304C\u3042\u308A\u307E\u305B\u3093\u3002"
+      standingChanges: []
+      hidePositions: 
+      hideAllStandings: 0
+    - speakerName: 
+      bodyText: "\u305D\u3053\u3067\u4ECA\u591C\u306F\u524D\u4EE5\u3066\u3001\u9B54\u8853\u3092\u4F7F\u3063\u3066\u898B\u305B\u3066\u304F\u308C\u308B\u3088\u3046\u306B\u3001\u624B\u7D19\u3067\u983C\u3093\u3067\u304A\u3044\u3066\u304B\u3089\u3001\u5F53\u6642\u30DF\u30B9\u30E9\u541B\u306E\u4F4F\u3093\u3067\u3044\u305F\u3001\u5BC2\u3057\u3044\u5927\u68EE\u306E\u8857\u5916\u308C\u307E\u3067\n\u4EBA\u529B\u8ECA\u3092\u6025\u304C\u305B\u3066\u304D\u305F\u306E\u3067\u3059\u3002"
+      standingChanges: []
+      hidePositions: 
+      hideAllStandings: 0
+  - pageName: P4
+    useFadeOnEnter: 0
+    backgroundSprite: {fileID: 878130953088834983, guid: ca8f528223780374798b02082b406212, type: 3}
+    bgmClip: {fileID: 0}
+    stopBgmIfClipIsEmpty: 1
+    startStandings: []
+    blocks:
+    - speakerName: 
+      bodyText: " \u79C1\u306F\u96E8\u306B\u6FE1\u308C\u306A\u304C\u3089\u3001\u899A\u675F\u306A\u3044\u8ECA\u592B\u306E\u63D0\u706F\u306E\u660E\u308A\u3092\u4FBF\u308A\u306B\u305D\u306E\u8868\u672D\u306E\u4E0B\u306B\u3042\u308B\u547C\u9234\u306E\u91E6\u3092\u62BC\u3057\u307E\u3057\u305F\u3002"
+      standingChanges:
+      - position: 2
+        characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+        visible: 1
+      hidePositions: 
+      hideAllStandings: 0
+    - speakerName: 
+      bodyText: " \u3059\u308B\u3068\u9593\u3082\u306A\u304F\u6238\u304C\u958B\u3044\u3066\u3001\u7384\u95A2\u3078\u9854\u3092\u51FA\u3057\u305F\u306E\u306F\u3001\u30DF\u30B9\u30E9\u541B\u306E\u4E16\u8A71\u3092\u3057\u3066\u3044\u308B\u3001\u80CC\u306E\u4F4E\u3044\u65E5\u672C\u4EBA\u306E\u5FA1\u5A46\u3055\u3093\u3067\u3059\u3002"
+      standingChanges:
+      - position: 0
+        characterSprite: {fileID: -1898900564960642027, guid: e7d739121c447584b991610553ffe542, type: 3}
+        visible: 1
+      hidePositions: 
+      hideAllStandings: 0
+  - pageName: P5
+    useFadeOnEnter: 0
+    backgroundSprite: {fileID: 878130953088834983, guid: ca8f528223780374798b02082b406212, type: 3}
+    bgmClip: {fileID: 0}
+    stopBgmIfClipIsEmpty: 1
+    startStandings:
+    - position: 2
+      characterSprite: {fileID: 3415416665201964701, guid: a1067ce4b35e17d4d885c2de151cb36b, type: 3}
+      visible: 1
+    - position: 0
+      characterSprite: {fileID: -1898900564960642027, guid: e7d739121c447584b991610553ffe542, type: 3}
+      visible: 1
+    blocks:
+    - speakerName: 
+      bodyText: "\u300C\u30DF\u30B9\u30E9\u541B\u306F\u5FA1\u51FA\u3067\u3067\u3059\u304B\u3002\u300D"
+      standingChanges: []
+      hidePositions: 
+      hideAllStandings: 0
+    - speakerName: 
+      bodyText: "\u300C\u3044\u3089\u3063\u3057\u3083\u3044\u307E\u3059\u3002\u5148\u307B\u3069\u304B\u3089\u3042\u306A\u305F\u69D8\u3092\u5FA1\u5F85\u3061\u304B\u306D\u3067\u3054\u3056\u3044\u307E\u3057\u305F\u3002\u300D\n
+        \u5FA1\u5A46\u3055\u3093\u306F\u611B\u60F3\u3088\u304F\u3053\u3046\u3044\u3044\u306A\u304C\u3089\u3001\u3059\u3050\u305D\u306E\u7384\u95A2\u306E\u3064\u304D\u3042\u305F\u308A\u306B\u3042\u308B\u3001\u30DF\u30B9\u30E9\u541B\u306E\u90E8\u5C4B\u3078\u79C1\u3092\u6848\u5185\u3057\u307E\u3057\u305F\u3002"
+      standingChanges: []
+      hidePositions: 
+      hideAllStandings: 0

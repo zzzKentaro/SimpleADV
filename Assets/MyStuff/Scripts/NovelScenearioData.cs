@@ -64,6 +64,9 @@ public class NovelPageData
     [Header("管理用ページ名。ゲーム中には表示しない")]
     public string pageName;
 
+    [Header("このページへ移動するときにフェードする")]
+    public bool useFadeOnEnter = true;
+
     [Header("このページの背景画像")]
     public Sprite backgroundSprite;
 

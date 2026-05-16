@@ -141,7 +141,11 @@ public class NovelManager : MonoBehaviour
         currentBlockIndex = -1;
         isScenarioFinished = false;
 
-        StartCoroutine(LoadPage(currentPageIndex, useFade: true));
+        NovelPageData firstPage = scenarioData.pages[currentPageIndex];
+
+        bool useFade = firstPage.useFadeOnEnter;
+
+        StartCoroutine(LoadPage(currentPageIndex, useFade));
     }
 
     /// <summary>
@@ -185,7 +189,11 @@ public class NovelManager : MonoBehaviour
         currentPageIndex = nextPageIndex;
         currentBlockIndex = -1;
 
-        StartCoroutine(LoadPage(currentPageIndex, useFade: true));
+        NovelPageData nextPage = scenarioData.pages[currentPageIndex];
+
+        bool useFade = nextPage.useFadeOnEnter;
+
+        StartCoroutine(LoadPage(currentPageIndex, useFade));
     }
 
     /// <summary>
